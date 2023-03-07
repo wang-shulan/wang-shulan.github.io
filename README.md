@@ -1,2 +1,2 @@
-# chenguanzhi.github.io
-个人博客
+# Worklog
+个人日志
