@@ -87,7 +87,7 @@
 }
 
 .soc-facebook:before {
-    content:'b';
+    content:'b'; 
 }
 .soc-pinterest:before {
     content:'d';
@@ -95,11 +95,14 @@
 .soc-linkedin:before {
     content:'j';
 }
-.soc-google:before {
-    content:'c';
+.soc-github:before {
+    content:'Q';
 }
 .soc-twitter:before {
     content:'a';
+}
+.soc-instagram:before {
+    content:'x';
 }
 
 @media screen and (min-width: 800px) {
