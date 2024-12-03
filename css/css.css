@@ -585,32 +585,32 @@ margin-bottom: 1em;
 .swipeboxEx{
   margin-top: 1em;
 }
-#pre-wedding-img{
-  background:url(../img/pre-wedding.jpg);
+#one-img{
+  background:url(../img/one.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 
-#portrait-img{
-  background:url(../img/portrait.jpg);
+#two-img{
+  background:url(../img/two.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 
-#travel-img{
-  background:url(../img/travel.jpg);
+#three-img{
+  background:url(../img/three.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 
-#video-img{
-  background:url(../img/video.jpg);
+#four-img{
+  background:url(../img/four.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
 
-#hkust-img{
-  background:url(../img/hkust.jpg);
+#scau-img{
+  background:url(../img/scau.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -625,8 +625,8 @@ margin-bottom: 1em;
   background-size:cover;
   background-repeat:no-repeat;
 }
-#taidong-img{
-  background:url(../img/taidong.jpg);
+#yinchuang-img{
+  background:url(../img/yinchuang.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
