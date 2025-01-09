@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<!--头部-->	
+<head>
+
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<!--定义网页名称-->
+	<title>WPS小王老师的工作室</title>
+	<script>document.createElement("picture")</script>
+	<script src="js/polyfill.min.js"></script>
+	
+	<!--引入样式文件-->
+	<link rel="stylesheet" href="css/misans.css">
+    <link rel="stylesheet" href="css/opensans.css">
+    <link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/socicon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ospb.css">
+    <link rel="stylesheet" href="css/ring.css">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+</head>
+
+<!--身体-->  
+<body ontouchstart="">
+
+	<!--主要内容-->
+	<main>
+		
+		<!--定义顶部菜单栏-->
+		<header>
+			
+			<!--点击Logo返回主页-->
+			<div class="col-logo">
+				<a href="index.html">
+					<img class="logo_img" src="img/homepageicon.svg">
+				</a>
+			</div>
+			
+			<!--Logo按钮位置，如果去掉，位置会偏移-->
+			<div class=" col-btn"></div>
+			<div class=" menu">
+				<div id="menu_icon">
+				</div>
+			</div>
+			
+			<!--定义菜单名称和链接-->
+			<div class="h-menu">
+				<ul>
+					<li class="horizontal mainpagenav"><a href="index.html">首页</a></li>
+					<li class="horizontal mainpagenav"><a href="courses.html">录制课程</a></li>
+					<li class="horizontal mainpagenav"><a href="corporate.html">企业培训</a></li>
+					<li class="horizontal mainpagenav"><a href="consulting.html">1V1咨询</a></li>
+					<li class="horizontal mainpagenav"><a href="templates.html">办公模板</a></li>
+					<li class="horizontal mainpagenav"><a href="contact.html">联系我</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<!--页面内容-->
+		<div id="content">
+			
+			<!--横幅-->
+			<div id="banner" class="col-12">
+				
+				<!--横幅图片-->
+				<picture>
+					<source media="(orientation: index)" srcset="img/index-banner-flat.png"/>
+					<source media="(min-device-width: 800px)" srcset="img/index-banner-flat.png"/>
+					<img src="img/index-banner-800.png" id="banner_img">
+				</picture>
+				
+				<!--横幅位置文字：口号-->
+				<!--
+				<div id="banner-textbox">
+					<div id="banner-text">
+						<h3 class="myname">WPS小王老师的工作室 <span class="light"></span></h3>
+						<h6>更聪明地工作 更智慧地办公</h6>
+					</div>
+				</div>
+				-->
+				
+			</div>
+
+			<!--横幅下方内容-->
+			<div id="below-banner">
+
+				<!--业务标题-->			
+				<div class="col-12">
+					<h4 class="gallary-title">产品及服务</h4>
+				</div>
+
+				<!--产品及业务专题链接-->	
+				<div class="row gallery-container">
+					
+					<!--录制课程链接-->
+					<div class="col-12 gallery">
+						<a href="courses.html">
+							<div class="gallery-image" id="courses-img">
+								<div class="darker"></div>
+							</div>
+						</a>
+						<div>
+							<h6 class="gallery-text">录制课程</h6>
+						</div>
+						
+					</div>
+					
+					<!--企业培训链接-->
+					<div class="col-12 gallery gallery-right">
+						<a href="corporate.html">
+							<div class="gallery-image" id="corporate-img">
+								<div class="darker"></div>
+							</div>
+						</a>
+						<div>
+							<h6 class="gallery-text">企业培训</h6>
+						</div>
+					</div>
+
+					<!--1V1咨询链接-->
+					<div class="col-12 gallery">
+						<a href="consulting.html">
+							<div class="gallery-image" id="consulting-img">
+								<div class="darker"></div>
+							</div>
+						</a>
+						<div>
+							<h6 class="gallery-text">1V1咨询</h6>
+						</div>
+					</div>
+
+					<!--办公模板链接-->
+					<div class="col-12 gallery gallery-right">
+						<a href="templates.html">
+							<div class="gallery-image" id="templates-img">
+								<div class="darker"></div>
+							</div>
+						</a>
+						<div>
+							<h6 class="gallery-text">办公模板</h6>
+						</div>
+					</div>
+					
+				</div>
+
+				<!--中间动态背景横幅-->
+				<div id="latest">    
+					<div id="latest-textbox">   
+						<h4 id="latest-text">定格教学画面，记录互动瞬间。</h4>  
+					</div>
+				</div>
+
+				<!--企业培训案例展示标题-->
+				<div class="col-12">
+					<h4 class="sub-title">企业培训案例展示</h4>
+				</div>
+
+				<!--企业培训案例展示-->
+				<div class="frame" id="basic">
+					<ul class="clearfix">
+						<li><div id="release1"></div></li>
+						<li><div id="release2"></div></li>
+						<li><div id="release3"></div></li>
+						<li><div id="release4"></div></li>
+						<li><div id="release5"></div></li>
+						<li><div id="release6"></div></li>
+						<li><div id="release7"></div></li>
+						<li><div id="release8"></div></li>
+						<li><div id="release9"></div></li>
+						<li><div id="release10"></div></li>
+					</ul>
+				</div>
+				
+				<!--关于我标题-->
+				<div class="col-12">
+					<h4 class="sub-title">关于我</h4>
+				</div>
+
+				<!--关于我-->
+				<div class="row about me">
+					<!--我的头像-->
+					<div class="col-12 mypic-box" style="border: 0px solid red;">
+						<img class="mypic" src="img/mypic.png" />
+					</div>
+					<!--我的介绍-->
+					<div class="col-12 myintro" style="border: 0px solid blue;">
+						<p id="me-intro-p">
+							<!--br代表一个换行，多个代表多行-->
+							王淑兰<br> 
+							资深办公软件培训师<br>
+							<br>
+							曾任职金山办公  /  金山KOS大师级认证  /  微软MOS大师级认证  /  华为认证讲师  /  微软华南区优秀Office技术培训讲师<br>
+							<br>
+							拥有10年办公软件培训经验，对Office软件在企业办公场景中的应用有深入的研究和丰富的实战经验。曾为上百家企事业单位提供定制Office技能培训服务，成功交付培训1000+场，好评率达99%！
+						</p>
+					</div>
+				</div>
+				
+				<div id="temporary"></div>
+								
+				<!--脚注行-->
+				<div class="footer row">
+					<!--版权声明-->
+					<div class="col-12" id="copyright-box">
+						<p id="copyright">Copyright ©2025 贝塔办公</p>
+					</div>
+					<!--社交媒体主页链接-->
+					<!--<div class="col-12" id="social-icon-box">
+						<div id="span-box">
+							<ul class="soc">
+								
+								<li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-pinterest" href="https://www.pinterest.com/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-twitter" href="https://twitter.com/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-instagram" href="https://www.instagram.com/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-github" href="https://github.com/xwz_rainbow/"></a></li>
+								
+							</ul>
+						</div>
+					</div>-->	
+				</div>
+			</div>
+		</div>
+		
+		<!--页面底部采用灰色图层-->
+		<div id="main-gray-layer"></div>
+
+	</main>
+
+</body>
+
+	<script src="js/js.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/sly.min.js"></script>
+	<script src="js/sendemailfunc.js"></script>
+	<script src="js/ajax.js"></script>
+	
+</html>
