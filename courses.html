@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+	
+<!--头部-->
+<head>
+	<meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!--定义网页名称-->
+	<title>WPS小王老师的工作室</title>
+	<script>document.createElement("picture")</script>
+	<script src="js/polyfill.min.js"></script>
+	  
+	<!--引入样式文件-->
+	<link rel="stylesheet" href="css/misans.css">
+	<link rel="stylesheet" href="css/opensans.css">
+	<link rel="stylesheet" href="css/css.css">
+	<link rel="stylesheet" href="css/socicon.css">
+	<link rel="stylesheet" href="css/swipebox.min.css">
+	<link rel="stylesheet" href="css/justifiedGallery.css">
+</head>
+
+<!--身体-->
+<body ontouchstart="">
+
+	<!--主要内容-->
+	<main>
+		<!--定义顶部菜单栏-->
+		<header>
+			
+			<!--点击Logo返回主页-->
+			<div class="col-logo">
+				<a href="index.html">
+					<img class="logo_img" src="img/homepageicon.svg">
+				</a>
+			</div>
+			
+			<!--Logo按钮位置，如果去掉，位置会偏移-->
+			<div class=" col-btn"></div>
+			<div class=" menu">
+				<div id="menu_icon"></div>
+			</div>
+
+			<!--定义菜单名称和链接-->
+			<div class="h-menu">
+				<ul>
+					<li class="horizontal"><a class="notselectedpage" href="index.html">首页</a></li>
+					<li class="horizontal"><a href="courses.html">录制课程</a></li>
+					<li class="horizontal"><a class="notselectedpage"  href="corporate.html">企业培训</a></li>
+					<li class="horizontal"><a class="notselectedpage"  href="consulting.html">1V1咨询</a></li>
+					<li class="horizontal"><a class="notselectedpage"  href="templates.html">办公模板</a></li>
+					<li class="horizontal"><a class="notselectedpage"  href="contact.html">联系我</a></li>
+				</ul>
+			</div>
+			
+		</header>
+
+		<!--页面内容-->
+		<div id="content">
+
+			<!--横幅-->
+			<div id="banner" class="col-12">
+				<picture>
+					<source media="(orientation: courses)" srcset="img/courses-banner-flat.png" />
+					<source media="(min-device-width:800px)" srcset="img/courses-banner-flat.png" />
+					<img src="img/courses-banner-800.png" id="banner_img">
+				</picture>
+			</div>
+
+			<!--横幅下方内容-->
+			<div id="below-banner">
+
+				<!--案例名称-->
+				<div class="col-12">
+					<h4 class="gallary-title">课程案例</h4>
+				</div>
+				
+				<!--定义案例库-->
+				<div class="swipeboxEx justified-gallery">
+					<!--案例图片-->
+					<a href="photos/courses/1-1500.png" >
+						<img src="photos/courses/1-800.png" />
+					</a>
+					<a href="photos/courses/2-1500.png">
+						<img src="photos/courses/2-800.png" />
+					</a>
+					<a href="photos/courses/3-1500.png" >
+						<img src="photos/courses/3-800.png" />
+					</a>
+					<a href="photos/courses/4-1500.png">
+						<img src="photos/courses/4-800.png" />
+					</a>
+					<a href="photos/courses/5-1500.png" >
+						<img src="photos/courses/5-800.png" />
+					</a>
+					<a href="photos/courses/6-1500.png">
+						<img src="photos/courses/6-800.png" />
+					</a>
+				</div>
+
+				<!--脚注行-->
+				<div class="footer row">
+					
+					<!--版权声明-->
+					<div class="col-12" id="copyright-box">
+						<p id="copyright">Copyright ©2025 贝塔办公</p>
+					</div>
+					
+					<!--社交媒体主页链接-->
+					<!--<div class="col-12" id="social-icon-box">
+						<div id="span-box">
+							<ul class="soc">
+								
+								<li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-pinterest" href="https://www.pinterest.com/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-twitter" href="https://twitter.com/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-instagram" href="https://www.instagram.com/xwz_rainbow/"></a></li>
+								<li><a target="_blank" class="soc-github" href="https://github.com/xwz_rainbow/"></a></li>
+								
+							</ul>
+						</div>
+					</div>--> 
+					 
+				</div>
+				
+			</div>
+
+		</div>
+		
+		<!--页面底部采用灰色图层-->
+		<div id="main-gray-layer"></div>
+		
+		<!--图片布局方式（自适应）-->
+		<div id="device-flag"></div>
+
+	</main>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/test.js"></script>
+	<script src="js/jquery.swipebox.js"></script>
+	<script src="js/jquery.justifiedGallery.js"></script>
+	
+	<!--图片滑动盒-->
+	<script>
+		$('.swipeboxEx').each(function(i, el) {
+			$(el).justifiedGallery({
+				rel: 'gal' + i
+				}).on('jg.complete', function() {
+					if (i == 0) $('.swipeboxEx a').swipebox();
+					});
+					});
+	</script>
+
+    
+</body>
+
+</html>
