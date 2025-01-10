@@ -21,7 +21,7 @@ html, body, main{
 	height: 100%;
 	width: 100vw;
 	background-color: #f6f6f6;
-	font-family: 'Mi Sans', serif;
+	font-family: 'Noto Sans SC', serif; /*全局字体*/
 }
 body{
 	position: relative;
