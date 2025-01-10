@@ -15,19 +15,6 @@
 
 
 	<!--从谷歌字体库引入字体-->
-    <!--<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,200,100' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-    <script src="js/webfont.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ['Open Sans']
-        }
-      });
-    </script>
-    -->
-    
-    
     <link href='https://fonts.googleapis.com/css2?family=Noto+Sans+SC:400,600,700,800,200,100' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
     <script src="js/webfont.js"></script>
@@ -97,9 +84,9 @@
 				
 				<!--横幅图片-->
 				<picture>
-					<source media="(orientation: index)" srcset="img/index-banner-flat.png"/>
-					<source media="(min-device-width: 800px)" srcset="img/index-banner-flat.png"/>
-					<img src="img/index-banner-800.png" id="banner_img">
+					<source media="(min-width: 1220px)" srcset="img/index-banner-flat.png"/>
+					<source media="(max-width: 1220px)" srcset="img/index-banner-flat-mobile.png"/>
+					<img id="banner_img">
 				</picture>
 				
 				<!--横幅位置文字：口号-->

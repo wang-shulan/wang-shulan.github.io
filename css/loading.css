@@ -154,9 +154,10 @@
     	
     }
 
+/*修改 1200 改 800；1600 改 2560*/
     @media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
+  and (min-device-width: 800px) 
+  and (max-device-width: 2560px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (min-resolution: 192dpi) { 
     
@@ -164,15 +165,3 @@
 
 
 }
-/*<div class='uil-default-css' style='transform:scale(0.16);'>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(0deg) translate(0,-60px);transform:rotate(0deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(36deg) translate(0,-60px);transform:rotate(36deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(72deg) translate(0,-60px);transform:rotate(72deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(108deg) translate(0,-60px);transform:rotate(108deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(144deg) translate(0,-60px);transform:rotate(144deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(180deg) translate(0,-60px);transform:rotate(180deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(216deg) translate(0,-60px);transform:rotate(216deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(252deg) translate(0,-60px);transform:rotate(252deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(288deg) translate(0,-60px);transform:rotate(288deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-    <div style='top:80px;left:93px;width:14px;height:40px;background:#ececec;-webkit-transform:rotate(324deg) translate(0,-60px);transform:rotate(324deg) translate(0,-60px);border-radius:10px;position:absolute;'></div>
-</div>*/
