@@ -576,6 +576,16 @@ h4{
 	position: relative;
 	margin-top: 2em;
 }
+#contact-img{
+  border: 0px solid red;
+  background:url(../img/contact-mobile.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 115vw;/*原来 50 vw*/
+  border: 0px solid blue;
+  display: flex;
+}
 
 #contact-title{
 	color: #fefefe;
@@ -1141,6 +1151,7 @@ h4{
 	margin-bottom: 5vw;
 }
 
+/*横版联系图片*/
 #contact{
 	display: flex;
 	position: relative;
@@ -1153,13 +1164,15 @@ h4{
 #contact-img{
 	border: 0px solid red;
 	background:url(../img/contact.png);
+
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position: center;
-	height: 32vw;
+	
+	height: 32vw;/*原来是 35vw */
 	border: 0px solid blue;
 	display: flex;
-	width:100%;
+	width:100%;/*原来是 33.3% */
 }
 
 #contact-title{
@@ -1358,9 +1371,10 @@ h4{
 	background-color: rgba(0,0,0,0);
 }
 
+/*高度 8 改 4*/
 #temporary{
 	width: 100%;
-	height: 8vw;
+	height: 4vw;
 }
 
 }

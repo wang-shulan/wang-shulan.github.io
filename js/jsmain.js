@@ -183,6 +183,6 @@ function addEvent(eventTarget, eventType, eventHandler) {
 
 function gotome(){
     //alert("gotome");
-    window.location.href = "https://chenguanzhi.github.io/#me";
+    window.location.href = "https://wang-shulan.github.io/#me";
 }
 
