@@ -3,19 +3,16 @@
 
 <!--头部-->	
 <head>
-
 	<meta charset="utf-8">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	
 	<!--定义网页名称-->
 	<title>WPS小王老师的工作室</title>
 	<script>document.createElement("picture")</script>
 	<script src="js/polyfill.min.js"></script>
 
-
-	<!--从谷歌字体库引入字体-->
-    <link href='https://fonts.googleapis.com/css2?family=Noto+Sans+SC:400,600,700,800,200,100' rel='stylesheet' type='text/css'>
+	<!--
+	<link href='https://fonts.googleapis.com/css2?family=Noto+Sans+SC:400,600,700,800,200,100' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
     <script src="js/webfont.js"></script>
     <script>
@@ -25,8 +22,8 @@
         }
       });
     </script>
-    
-    	
+    -->
+     	
 	<!--引入样式文件-->
 	<link rel="stylesheet" href="css/notosanssc.css">
     <link rel="stylesheet" href="css/css.css">
@@ -38,6 +35,9 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ospb.css">
+    
 </head>
 
 <!--身体-->  
@@ -68,10 +68,17 @@
 				</a>
 			</div>
 			
-			<!--移动端顶部菜单按钮-->
-			<div class="col-btn"></div>
+			<!--移动端顶部右侧菜单按钮-->
+			<div class="col-btn">
+			</div>
+			
 			<div class="menu">
-				<div id="menu_icon"></div>
+				<div id="menu_icon">
+					<!--画3条横线-->
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			</div>
 			
 			<!--定义菜单名称和链接-->

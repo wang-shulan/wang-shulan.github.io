@@ -178,6 +178,8 @@ nav{
 	cursor: pointer;
 }
 
+/* Icon 1 */
+
 #menu_icon {
 	width: 25px;
 	height: 19px;
@@ -193,13 +195,12 @@ nav{
 	cursor: pointer;
 }
 
-/* Icon 1 */
 #menu_icon span {
 	display: block;
 	position: absolute;
 	height: 3px;
 	width: 100%;
-	background: #9a9a9a;
+	background: #ffffff; /*移动端顶部右侧的3条横杠颜色为白色*/
 	border-radius: 3px;
 	opacity: 1;
 	left: 0;
@@ -907,6 +908,7 @@ h6{
 	width: 8em;
 	border: 0px solid blue;
 }
+/*none 改为 block*/
 #menu_icon{
 	display: none;
 }
